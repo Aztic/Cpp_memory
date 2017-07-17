@@ -26,7 +26,7 @@ Table::Table(int ways, int words, int block_size,string method){
   	transform(this->method.begin(),this->method.end(),this->method.begin(),::toupper);
 	//Fill the "table" with "empty" vectors
 	for(int i=0;i<ways;i++){
-    vector<Block> temp;
+    		vector<Block> temp;
 		temp.reserve(blocks_per_way);
 		for(int j=0;j<blocks_per_way;j++){
 			//Block temp(block_size);
