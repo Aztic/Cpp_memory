@@ -2,8 +2,7 @@
 Program to simulate the insertion process in a cache memory.
 
 ## TODO
-  - Totally associative cache
-  - GUI
+  - UI
 
 ## License
 Apache 2.0
